@@ -15,7 +15,10 @@ namespace ConsoleApp13
             int c = int.Parse(Console.ReadLine());
 
 
-
+            if(c==3)
+            {
+                Console.WriteLine(a+b);
+            }
 
 
 
