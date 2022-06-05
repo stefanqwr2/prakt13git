@@ -86,7 +86,10 @@ namespace ConsoleApp13
 
 
 
-
+            if(c == 2)
+            {
+                b = int.Parse(Console.ReadLine());
+            }
 
 
 
