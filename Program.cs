@@ -11,8 +11,10 @@ namespace ConsoleApp13
         static void Main(string[] args)
         {
             int a = 0, b = 0;
-            Console.WriteLine("1-Ввод А, 2-Ввод В, 3-Сложение, 4-Вычитание, 5-Умножение, 6-Деление");
-            int c = int.Parse(Console.ReadLine());
+            while (true)
+            {
+                Console.WriteLine("1-Ввод А, 2-Ввод В, 3-Сложение, 4-Вычитание, 5-Умножение, 6-Деление");
+                int c = int.Parse(Console.ReadLine());
 
 
 
@@ -22,6 +24,10 @@ namespace ConsoleApp13
 
 
 
+                if (c == 4)
+                {
+                    Console.WriteLine(a - b);
+                }
 
 
 
@@ -94,10 +100,10 @@ namespace ConsoleApp13
 
 
 
+                Console.ReadKey();
 
-
-
-
+            }
+          
 
 
         }
