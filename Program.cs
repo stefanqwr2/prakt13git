@@ -41,8 +41,10 @@ namespace ConsoleApp13
 
 
 
-
-
+            if(c == 5)
+            {
+                Console.WriteLine(a * b);
+            }
 
 
 
